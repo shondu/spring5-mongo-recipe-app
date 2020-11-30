@@ -53,7 +53,7 @@ jobs:
 
       - store_artifacts:
           path: ~/junit
-
-#      - run:
-#          name: Send to CodeCov
-#          command: bash <(curl -s https://codecov.io/bash)
+˚
+      - run:
+          name: Send to CodeCov
+          command: bash <(curl -s https://codecov.io/bash)
